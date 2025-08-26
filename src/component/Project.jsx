@@ -11,7 +11,7 @@ const ProjectShowcase = () => {
         description:
           "An Android application that allows users to scan barcodes and QR codes quickly and accurately. Built with Flutter and powered by Google's MLKit for robust scanning performance.",
         tech: ["Flutter", "MLKit"],
-        link: "https://github.com/yourusername/barcode-scanner",
+        link: "https://android-five-kappa.vercel.app/scanner",
       },
       {
         title: "Money Earning App",
@@ -19,7 +19,7 @@ const ProjectShowcase = () => {
         description:
           "A gamified Android app where users can complete micro tasks, earn rewards, and track their progress. Designed with Firebase backend for real-time updates and secure authentication.",
         tech: ["Flutter", "Firebase"],
-        link: "https://github.com/yourusername/money-earning-app",
+        link: "https://android-five-kappa.vercel.app/earn",
       },
     ],
     React: [
