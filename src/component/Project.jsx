@@ -4,41 +4,46 @@ const ProjectShowcase = () => {
   const [activeTab, setActiveTab] = useState("Android");
 
   const projects = {
-    "Android": [
+    Android: [
       {
         title: "Barcode QRCode Scanner",
         img: "/barcode.png",
-        description: "Android app to scan barcodes and QR codes quickly.",
+        description:
+          "An Android application that allows users to scan barcodes and QR codes quickly and accurately. Built with Flutter and powered by Google's MLKit for robust scanning performance.",
         tech: ["Flutter", "MLKit"],
         link: "https://github.com/yourusername/barcode-scanner",
       },
       {
         title: "Money Earning App",
         img: "/money.png",
-        description: "Gamified Android app for micro tasks and rewards.",
+        description:
+          "A gamified Android app where users can complete micro tasks, earn rewards, and track their progress. Designed with Firebase backend for real-time updates and secure authentication.",
         tech: ["Flutter", "Firebase"],
         link: "https://github.com/yourusername/money-earning-app",
       },
     ],
-    "React": [
+    React: [
       {
         title: "YouTube Video Summarizer",
         img: "/youtube.png",
-        description: "Summarizes YouTube videos using transcripts and AI.",
+        description:
+          "A web app that generates concise summaries of YouTube videos using transcripts and AI-powered language models. Enhances productivity by extracting key points instantly.",
         tech: ["React", "Gemini Flash 1.5 API"],
         link: "https://github.com/Ajayrawati/Youtube_vedio_Summarizer",
       },
       {
         title: "Online Text Share",
         img: "/share.png",
-        description: "Realtime text sharing app like Pastebin.",
+        description:
+          "A real-time collaborative text sharing platform, similar to Pastebin. Users can create, share, and edit snippets instantly with a Firebase-powered backend.",
         tech: ["React", "Firebase"],
         link: "https://online-data-share.vercel.app/",
       },
       {
         title: "PixelBooth",
         img: "/pixel.png",
-        description: "Fun photo filter app with pixel effects.",
+        description:
+          "A fun and interactive photo filter app where users can apply creative pixel effects to images. Built with React and Canvas API for dynamic rendering.",
         tech: ["React", "Canvas API"],
         link: "https://pixel-booth-six.vercel.app/",
       },
@@ -47,14 +52,16 @@ const ProjectShowcase = () => {
       {
         title: "IMDB Scrapper",
         img: "/imdb.png",
-        description: "Scrapes movie ratings and details from IMDB.",
+        description:
+          "A Python-based tool that scrapes movie ratings, reviews, and details directly from IMDB. Useful for building datasets or powering movie-related applications.",
         tech: ["Python", "BeautifulSoup"],
         link: "https://movie-api-omega-three.vercel.app/",
       },
       {
         title: "Instagram Video Downloader",
         img: "/insta.png",
-        description: "A script to download Instagram videos directly.",
+        description:
+          "A lightweight Python script that allows users to download Instagram videos directly with ease. Built using Requests library for simple and reliable fetching.",
         tech: ["Python", "Requests"],
         link: "https://www.multipoint.shop/",
       },
@@ -63,7 +70,8 @@ const ProjectShowcase = () => {
       {
         title: "PDF/Text Summarizer",
         img: "/bot.png",
-        description: "Telegram bot that summarizes documents and articles.",
+        description:
+          "A Telegram bot that summarizes long PDF documents, text files, or articles into concise insights. Integrates NLP techniques with Telegram API for seamless user interaction.",
         tech: ["Python", "NLTK", "Telegram API"],
         link: "https://github.com/Ajayrawati/Telegram_Summarize_Bot",
       },
@@ -73,7 +81,7 @@ const ProjectShowcase = () => {
         title: "Custom Compiler",
         img: "/custom.png",
         description:
-          "A basic compiler built from scratch to understand parsing and code generation.",
+          "A custom-built compiler project developed from scratch to understand parsing, syntax analysis, and code generation. Implemented using C++ along with Lex and Yacc for lexical and grammar processing.",
         tech: ["C++", "Lex", "Yacc"],
         link: "https://github.com/Ajayrawati/PBL_Compiler_Custom_Compiler",
       },
@@ -90,7 +98,7 @@ const ProjectShowcase = () => {
       </div>
 
       {/* Tabs */}
-      <div className="flex space-x-4 justify-center mb-8">
+      <div className="flex space-x-4 justify-center mb-8 flex-wrap">
         {Object.keys(projects).map((category) => (
           <button
             key={category}
@@ -113,11 +121,16 @@ const ProjectShowcase = () => {
             key={idx}
             className="bg-white text-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition transform"
           >
-            <img
-              src={p.img}
-              alt={p.title}
-              className="w-full h-[300px] object-cover"
-            />
+            {/* Image with fixed height + lazy loading */}
+            <div className="w-full h-[220px] bg-gray-200">
+              <img
+                src={p.img}
+                alt={p.title}
+                loading="lazy"
+                className="w-full h-full object-cover rounded-t-2xl"
+              />
+            </div>
+
             <div className="p-4 space-y-3">
               <h3 className="font-bold text-lg">{p.title}</h3>
               <p className="text-sm text-gray-700">{p.description}</p>
