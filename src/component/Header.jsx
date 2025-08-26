@@ -43,10 +43,10 @@ function Header() {
             Projects
           </li>
           <li
-            onClick={() => handleLinkClick("contact")}
+            onClick={() => handleLinkClick("connect")}
             className="hover:text-orange-500 cursor-pointer"
           >
-            Contact
+            Connect
           </li>
         </ul>
 
@@ -110,10 +110,10 @@ function Header() {
             Projects
           </li>
           <li
-            onClick={() => handleLinkClick("contact")}
+            onClick={() => handleLinkClick("connect")}
             className="hover:text-orange-500 cursor-pointer"
           >
-            Contact
+            Connect
           </li>
           <li>
             <a
