@@ -1,29 +1,29 @@
 function Skills() {
     const skills = {
         "Frontend": [
-            { name: "HTML", img: "/html.png", level: "Advanced" },
-            { name: "TailWindCSS", img: "/tailwind.png", level: "Intermediate" },
-            { name: "React", img: "/react.png", level: "Intermediate" },
-            { name: "Flutter", img: "/pngwing.png", level: "Intermediate" },
+            { name: "HTML", img: "/html.webp", level: "Advanced" },
+            { name: "TailWindCSS", img: "/tailwind.webp", level: "Intermediate" },
+            { name: "React", img: "/react.webp", level: "Intermediate" },
+            { name: "Flutter", img: "/webpwing.webp", level: "Intermediate" },
         ],
         "Backend": [
-            { name: "Flask", img: "/flask.png", level: "Intermediate" },
-            { name: "Node.js", img: "/node.png", level: "Intermediate" },
-            { name: "Firebase", img: "/firebase.png", level: "Intermediate" },
-            { name: "MongoDB", img: "/mongo.png", level: "Beginner" },
+            { name: "Flask", img: "/flask.webp", level: "Intermediate" },
+            { name: "Node.js", img: "/node.webp", level: "Intermediate" },
+            { name: "Firebase", img: "/firebase.webp", level: "Intermediate" },
+            { name: "MongoDB", img: "/mongo.webp", level: "Beginner" },
         ],
         "Frameworks & Scraping": [
 
-            { name: "Web Scraping", img: "/selenium.png", level: "Intermediate" },
+            { name: "Web Scraping", img: "/selenium.webp", level: "Intermediate" },
         ],
         "Tools": [
-            { name: "Git", img: "/git.png", level: "Intermediate" },
-            { name: "Docker", img: "/docker.png", level: "Beginner" },
+            { name: "Git", img: "/git.webp", level: "Intermediate" },
+            { name: "Docker", img: "/docker.webp", level: "Beginner" },
         ],
         "Programming": [
-            { name: "C++", img: "/cpp.png", level: "Advanced" },
-            { name: "Python", img: "/python.png", level: "Intermediate" },
-            { name: "Java", img: "/java.png", level: "Beginner" },
+            { name: "C++", img: "/cpp.webp", level: "Advanced" },
+            { name: "Python", img: "/python.webp", level: "Intermediate" },
+            { name: "Java", img: "/java.webp", level: "Beginner" },
         ],
     };
 

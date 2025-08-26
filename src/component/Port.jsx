@@ -49,23 +49,23 @@ export default function Portfolio() {
         {/* Right Content (Avatar + Floating Icons) */}
         <div className="relative mt-10 md:mt-0 flex justify-end w-full  mx-0">
           <img
-            src="/character.png"
+            src="/character.webp"
             alt="Avatar"
             className="w-[550px] py-0.5 drop-shadow-[0_0_20px_rgba(255,100,0,0.6)]"
           />
 
           {/* Floating Tech Icons */}
           <div className="absolute top-10 left-[15%]">
-            <img src="/html.png" alt="HTML" className="w-[100px] animate-bounce" />
+            <img src="/html.webp" alt="HTML" className="w-[100px] animate-bounce" />
           </div>
           <div className="absolute bottom-16 left-[10%]">
-            <img src="/bulb.png" alt="CSS" className="w-[100px] animate-bounce" />
+            <img src="/bulb.webp" alt="CSS" className="w-[100px] animate-bounce" />
           </div>
           <div className="absolute bottom-10 right-24">
-            <img src="/pngwing.png" alt="Node.js" className="w-[100px] animate-bounce" />
+            <img src="/node.webp" alt="Node.js" className="w-[100px] animate-bounce" />
           </div>
           <div className="absolute top-20 right-40">
-            <img src="/android.png" alt="Figma" className="w-[50px] animate-bounce" />
+            <img src="/android.webp" alt="Figma" className="w-[50px] animate-bounce" />
           </div>
         </div>
       </section>

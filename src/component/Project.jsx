@@ -7,7 +7,7 @@ const ProjectShowcase = () => {
     Android: [
       {
         title: "Barcode QRCode Scanner",
-        img: "/barcode.png",
+        img: "/barcode.webp",
         description:
           "An Android application that allows users to scan barcodes and QR codes quickly and accurately. Built with Flutter and powered by Google's MLKit for robust scanning performance.",
         tech: ["Flutter", "MLKit"],
@@ -15,7 +15,7 @@ const ProjectShowcase = () => {
       },
       {
         title: "Money Earning App",
-        img: "/money.png",
+        img: "/money.webp",
         description:
           "A gamified Android app where users can complete micro tasks, earn rewards, and track their progress. Designed with Firebase backend for real-time updates and secure authentication.",
         tech: ["Flutter", "Firebase"],
@@ -25,7 +25,7 @@ const ProjectShowcase = () => {
     React: [
       {
         title: "YouTube Video Summarizer",
-        img: "/youtube.png",
+        img: "/youtube.webp",
         description:
           "A web app that generates concise summaries of YouTube videos using transcripts and AI-powered language models. Enhances productivity by extracting key points instantly.",
         tech: ["React", "Gemini Flash 1.5 API"],
@@ -33,7 +33,7 @@ const ProjectShowcase = () => {
       },
       {
         title: "Online Text Share",
-        img: "/share.png",
+        img: "/share.webp",
         description:
           "A real-time collaborative text sharing platform, similar to Pastebin. Users can create, share, and edit snippets instantly with a Firebase-powered backend.",
         tech: ["React", "Firebase"],
@@ -41,7 +41,7 @@ const ProjectShowcase = () => {
       },
       {
         title: "PixelBooth",
-        img: "/pixel.png",
+        img: "/pixel.webp",
         description:
           "A fun and interactive photo filter app where users can apply creative pixel effects to images. Built with React and Canvas API for dynamic rendering.",
         tech: ["React", "Canvas API"],
@@ -51,7 +51,7 @@ const ProjectShowcase = () => {
     "Python Scrapper": [
       {
         title: "IMDB Scrapper",
-        img: "/imdb.png",
+        img: "/imdb.webp",
         description:
           "A Python-based tool that scrapes movie ratings, reviews, and details directly from IMDB. Useful for building datasets or powering movie-related applications.",
         tech: ["Python", "BeautifulSoup"],
@@ -59,7 +59,7 @@ const ProjectShowcase = () => {
       },
       {
         title: "Instagram Video Downloader",
-        img: "/insta.png",
+        img: "/insta.webp",
         description:
           "A lightweight Python script that allows users to download Instagram videos directly with ease. Built using Requests library for simple and reliable fetching.",
         tech: ["Python", "Requests"],
@@ -69,7 +69,7 @@ const ProjectShowcase = () => {
     "Telegram Bot": [
       {
         title: "PDF/Text Summarizer",
-        img: "/bot.png",
+        img: "/bot.webp",
         description:
           "A Telegram bot that summarizes long PDF documents, text files, or articles into concise insights. Integrates NLP techniques with Telegram API for seamless user interaction.",
         tech: ["Python", "NLTK", "Telegram API"],
@@ -79,7 +79,7 @@ const ProjectShowcase = () => {
     "Language Based": [
       {
         title: "Custom Compiler",
-        img: "/custom.png",
+        img: "/custom.webp",
         description:
           "A custom-built compiler project developed from scratch to understand parsing, syntax analysis, and code generation. Implemented using C++ along with Lex and Yacc for lexical and grammar processing.",
         tech: ["C++", "Lex", "Yacc"],
