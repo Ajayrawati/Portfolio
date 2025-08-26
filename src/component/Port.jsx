@@ -2,6 +2,13 @@ import { ReactTyped } from "react-typed";
 
 
 export default function Portfolio() {
+  const handleLinkClick = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+    setIsOpen(false);
+  };
   return (
     <div className="bg-gradient-to-r from-[#000033] via-[#000080] via-[#0047AB] to-[#00CFFF] text-white min-h-screen font-sans">
 
@@ -32,17 +39,12 @@ export default function Portfolio() {
 
           <div className="flex gap-4 mt-6">
             <a
-              href="mailto:ajay@example.com"
-              className="px-6 py-3 bg-orange-500 rounded-lg font-semibold hover:bg-orange-600 transition"
+              onClick={() => handleLinkClick("connect")}
+              className="px-6 py-3 bg-orange-500 rounded-lg font-semibold hover:cursor-pointer hover:bg-orange-600 transition"
             >
               Hire Me
             </a>
-            <a
-              href="#"
-              className="px-6 py-3  border-gray-300 rounded-lg hover:border-orange-500 hover:text-orange-500 transition"
-            >
-              Contact
-            </a>
+            
           </div>
         </div>
 

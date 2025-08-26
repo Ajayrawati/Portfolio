@@ -32,7 +32,7 @@ function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#000033] via-[#000080] via-[#0047AB] to-[#00CFFF] flex flex-col items-center p-6">
+    <div id="connect" className="min-h-screen bg-gradient-to-r from-[#000033] via-[#000080] via-[#0047AB] to-[#00CFFF] flex flex-col items-center p-6">
       <div className="mt-[100px] w-full max-w-6xl flex flex-col lg:flex-row items-center gap-10">
 
         {/* Social Icons */}
