@@ -35,7 +35,7 @@ function Skills() {
     };
 
     return (
-        <div id="skills" className="border bg-gradient-to-r from-[#000033] via-[#000080] to-[#00CFFF] min-h-screen text-white py-16 px-8">
+        <div id="skills" className=" bg-gradient-to-r from-[#000033] via-[#000080] to-[#00CFFF] min-h-screen text-white py-16 px-8">
 
             {/* Heading */}
             <div className="flex justify-center items-center mb-16">

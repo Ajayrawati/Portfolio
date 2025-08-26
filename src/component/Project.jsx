@@ -89,7 +89,7 @@ const ProjectShowcase = () => {
   };
 
   return (
-    <div id="projects" className=" bg-gradient-to-r border from-[#000033] via-[#000080] to-[#00CFFF] min-h-screen text-white p-8">
+    <div id="projects" className=" bg-gradient-to-r  from-[#000033] via-[#000080] to-[#00CFFF] min-h-screen text-white p-8">
       {/* Header */}
       <div className="flex justify-center items-center mb-16">
         <h1 className="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 tracking-wide drop-shadow-lg">
