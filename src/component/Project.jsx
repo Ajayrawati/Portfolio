@@ -119,7 +119,7 @@ const ProjectShowcase = () => {
         {projects[activeTab].map((p, idx) => (
           <div
             key={idx}
-            className="bg-white text-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition transform"
+            className="bg-[#1A1A85] text-black rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition transform"
           >
             {/* Image with fixed height + lazy loading */}
             <div className="w-full h-[220px] bg-gray-200">
@@ -132,8 +132,8 @@ const ProjectShowcase = () => {
             </div>
 
             <div className="p-4 space-y-3">
-              <h3 className="font-bold text-lg">{p.title}</h3>
-              <p className="text-sm text-gray-700">{p.description}</p>
+              <h3 className="font-bold text-white text-lg">{p.title}</h3>
+              <p className="text-sm text-white">{p.description}</p>
 
               {/* Tech Tags */}
               {p.tech && (

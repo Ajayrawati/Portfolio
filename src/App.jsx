@@ -3,6 +3,7 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 import Project from './component/Project';
 import Skills from './component/Skills';
+import ContactPage from './component/LetsConnect';
 import './App.css'
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       {/* Project */}
       <Project/>
 
+      {/* Contact */}
+      <ContactPage/>
 
 
       {/* Footer */}
